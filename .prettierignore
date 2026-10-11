@@ -1,0 +1,8 @@
+.next
+node_modules
+public/images
+package-lock.json
+PLAN.md
+AGENTS.md
+docs
+README.md

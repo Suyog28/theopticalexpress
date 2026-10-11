@@ -1,0 +1,296 @@
+[
+  {
+    "file": "hero/hero-tortoiseshell.jpg",
+    "id": "photo-1762505464970-1cf0cb7ec022",
+    "page": "/photos/a-young-woman-wearing-stylish-tortoiseshell-glasses-Ukk-zKS65hU",
+    "w": 1800,
+    "purpose": "Homepage hero"
+  },
+  {
+    "file": "editorial/campaign-frames.jpg",
+    "id": "photo-1564645063853-dc4f956a076a",
+    "page": "/photos/woman-in-orange-and-black-top-and-eyeglasses-eBPNpVDC1RM",
+    "w": 1600,
+    "purpose": "Promotional campaign banner"
+  },
+  {
+    "file": "editorial/eye-exam.jpg",
+    "id": "photo-1539036776273-021ec1d78bec",
+    "page": "/photos/white-eye-testing-machine-aMmDIsdnUro",
+    "w": 1400,
+    "purpose": "Eye-care section and appointment page"
+  },
+  {
+    "file": "editorial/eye-chart.jpg",
+    "id": "photo-1576210117723-cd06449a467d",
+    "page": "/photos/medical-eye-test-0are122T4ho",
+    "w": 1200,
+    "purpose": "Appointment page accent"
+  },
+  {
+    "file": "editorial/collection-books.jpg",
+    "id": "photo-1758552327702-bb6ff8b13351",
+    "page": "/photos/several-pairs-of-glasses-resting-on-books-4NPBDov7tfs",
+    "w": 1400,
+    "purpose": "New arrivals / about editorial"
+  },
+  {
+    "file": "editorial/community.jpg",
+    "id": "photo-1774437668001-8d0a23f3d595",
+    "page": "/photos/an-elderly-indian-woman-wearing-a-sari-and-glasses-4eTVOjSNHFY",
+    "w": 1400,
+    "purpose": "About page editorial"
+  },
+  {
+    "file": "categories/eyeglasses.jpg",
+    "id": "photo-1617039346892-d72191157374",
+    "page": "/photos/woman-in-brown-coat-wearing-black-framed-eyeglasses-LVJHabrJ2C4",
+    "w": 1000,
+    "purpose": "Category: Eyeglasses"
+  },
+  {
+    "file": "categories/sunglasses.jpg",
+    "id": "photo-1556015048-4d3aa10df74c",
+    "page": "/photos/woman-wearing-green-framed-sunglasses-GwglcplmXDs",
+    "w": 1000,
+    "purpose": "Category: Sunglasses"
+  },
+  {
+    "file": "categories/kids.jpg",
+    "id": "photo-1594918794521-a0c01cdff8c0",
+    "page": "/photos/girl-in-red-framed-eyeglasses-and-gray-sweater-sitting-on-brown-wooden-chair-JBcxO430PKM",
+    "w": 1000,
+    "purpose": "Category: Kids' eyewear"
+  },
+  {
+    "file": "categories/premium.jpg",
+    "id": "photo-1760446031723-e03702a3386d",
+    "page": "/photos/eyeglasses-and-perfume-bottle-on-wooden-stand-qQTMrv-aIYA",
+    "w": 1000,
+    "purpose": "Category: Premium frames"
+  },
+  {
+    "file": "categories/everyday.jpg",
+    "id": "photo-1625769253494-aad1c0d9076f",
+    "page": "/photos/man-in-black-framed-eyeglasses-and-black-long-sleeve-shirt-Z-k1GNO1P7Q",
+    "w": 1000,
+    "purpose": "Category: Everyday frames"
+  },
+  {
+    "file": "categories/blue-light.jpg",
+    "id": "photo-1579505479629-853123f6fee2",
+    "page": "/photos/a-woman-with-glasses-is-looking-at-her-cell-phone-3VwALdNbvFQ",
+    "w": 1000,
+    "purpose": "Category: Blue-light glasses"
+  },
+  {
+    "file": "stores/illustrative-frame-wall.jpg",
+    "id": "photo-1544177586-c9b9fb1f45c2",
+    "page": "/photos/close-up-photo-of-eyeglasses-rack-5hC2YalkXHw",
+    "w": 1400,
+    "purpose": "ILLUSTRATIVE frame wall (not the actual store) — no third-party branding visible"
+  },
+  {
+    "file": "stores/illustrative-frame-display.jpg",
+    "id": "photo-1534078477103-9f6a18b3a5e2",
+    "page": "/photos/eyeglasses-lot-G8ioIHUDfNc",
+    "w": 1400,
+    "purpose": "ILLUSTRATIVE frame display (not the actual store) — no third-party branding visible"
+  },
+  {
+    "file": "stores/illustrative-display.jpg",
+    "id": "photo-1486250944723-86bca2b15b06",
+    "page": "/photos/arranged-assorted-color-eyeglasses-on-rack-UsALNdok2m4",
+    "w": 1400,
+    "purpose": "ILLUSTRATIVE frame display (stores page header)"
+  },
+  {
+    "file": "products/aurora-rectangle-2.jpg",
+    "id": "photo-1629172015687-c446c28cb858",
+    "page": "/photos/man-in-brown-button-up-jacket-wearing-black-framed-eyeglasses-95o5-T5FGCQ",
+    "w": 1000,
+    "purpose": "Sample product (lifestyle)"
+  },
+  {
+    "file": "products/lumen-round-1.jpg",
+    "id": "photo-1606357086272-eab87f3db598",
+    "page": "/photos/black-framed-eyeglasses-on-white-surface-DSW79QZtjGM",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/lumen-round-2.jpg",
+    "id": "photo-1606357100116-f787c70ea04f",
+    "page": "/photos/black-framed-eyeglasses-on-white-surface-JblwtK032ag",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/heritage-oval-2.jpg",
+    "id": "photo-1616169863282-3b90a0982118",
+    "page": "/photos/brown-framed-eyeglasses-on-brown-wooden-table-a8o-mAP8Ui4",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/sienna-cateye-1.jpg",
+    "id": "photo-1760446031441-65f456460d59",
+    "page": "/photos/tortoiseshell-eyeglasses-on-a-neutral-background-kQRtNeFxAcw",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/sienna-cateye-2.jpg",
+    "id": "photo-1617009762269-c062aaf6b3a0",
+    "page": "/photos/woman-in-red-and-white-plaid-shirt-wearing-black-framed-eyeglasses-upn798iEEYM",
+    "w": 1000,
+    "purpose": "Sample product (lifestyle)"
+  },
+  {
+    "file": "products/titan-air-1.jpg",
+    "id": "photo-1652328072963-ac78af63cb78",
+    "page": "/photos/round-metal-rimmed-glasses-on-a-light-yellow-fabric-Nf8XWr9JYvk",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/titan-air-2.jpg",
+    "id": "photo-1786341133491-093a72b5aa8f",
+    "page": "/photos/silver-metal-eyeglass-frames-twEsfXMyiAQ",
+    "w": 1000,
+    "purpose": "Sample product (detail)"
+  },
+  {
+    "file": "products/nova-geometric-1.jpg",
+    "id": "photo-1625591342274-013866180475",
+    "page": "/photos/black-framed-eyeglasses-on-white-surface-OWfBsDDOUlQ",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/nova-geometric-2.jpg",
+    "id": "photo-1573999842765-26f179ec3979",
+    "page": "/photos/man-in-black-framed-eyeglasses-rnk1O_Requw",
+    "w": 1000,
+    "purpose": "Sample product (lifestyle)"
+  },
+  {
+    "file": "products/clarity-bluelight-1.jpg",
+    "id": "photo-1638038988551-28155572ce41",
+    "page": "/photos/a-pair-of-glasses-sitting-on-top-of-a-table-_GMm2QD5yco",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/clarity-bluelight-2.jpg",
+    "id": "photo-1638042479727-6ca355e0e891",
+    "page": "/photos/a-pair-of-glasses-sitting-on-top-of-a-white-surface-J7pWvj-Tqmo",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/oriel-aviator-optical-1.jpg",
+    "id": "photo-1576420782660-c3be90691e29",
+    "page": "/photos/eyeglasses-on-white-surface-2l3H_1e-85Y",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/oriel-aviator-optical-2.jpg",
+    "id": "photo-1608906709312-fe17f7c1a5a6",
+    "page": "/photos/black-framed-eyeglasses-on-white-surface-yQpSxKF_ELA",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/vintage-wire-1.jpg",
+    "id": "photo-1591843336300-89d113fcacd8",
+    "page": "/photos/black-framed-eyeglasses-on-white-surface-aa13iRARJwk",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/vintage-wire-2.jpg",
+    "id": "photo-1776392454319-00658fd3f30c",
+    "page": "/photos/antique-round-spectacles-resting-on-white-cloth-j65Nu2xvkIQ",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/coast-aviator-1.jpg",
+    "id": "photo-1599705709640-9f9eb5964485",
+    "page": "/photos/black-framed-aviator-style-sunglasses-ouAyz-zRMTw",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/coast-aviator-2.jpg",
+    "id": "photo-1590564310418-66304f55a2c2",
+    "page": "/photos/silver-framed-aviator-style-sunglasses-on-white-ceramic-saucer-P4TPjOXKqY8",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/harbour-browline-1.jpg",
+    "id": "photo-1584036553516-bf83210aa16c",
+    "page": "/photos/black-framed-sunglasses-on-white-surface-lSl94SZHRgA",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/harbour-browline-2.jpg",
+    "id": "photo-1610136649349-0f646f318053",
+    "page": "/photos/black-framed-sunglasses-on-white-table-3xtCeUhqZWE",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/muse-cateye-sun-1.jpg",
+    "id": "photo-1508296695146-257a814070b4",
+    "page": "/photos/gray-sunglasses-with-white-frames-FlP6C5pkMKs",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/muse-cateye-sun-2.jpg",
+    "id": "photo-1559070081-648fb00b2ed1",
+    "page": "/photos/two-tortoiseshell-framed-wayfarer-styled-sunglasses-with-box-Pp_nVOuJMTU",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/riva-round-sun-1.jpg",
+    "id": "photo-1587310311582-aa7610e90826",
+    "page": "/photos/black-framed-sunglasses-on-white-table-ODhxNCO8XHY",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/pip-kids-1.jpg",
+    "id": "photo-1716862182572-10603d9089a6",
+    "page": "/photos/six-pairs-of-glasses-sitting-on-top-of-a-white-surface-ogav-IaToZI",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/pip-kids-2.jpg",
+    "id": "photo-1593194777536-e155e6d100b2",
+    "page": "/photos/girl-in-blue-and-white-shirt-wearing-pink-framed-eyeglasses-msgYbIh-1DA",
+    "w": 1000,
+    "purpose": "Sample product (lifestyle)"
+  },
+  {
+    "file": "products/scout-kids-1.jpg",
+    "id": "photo-1722303165074-acba5cd2f3cd",
+    "page": "/photos/three-pairs-of-glasses-sitting-next-to-each-other-tyo8ibpCbhs",
+    "w": 1000,
+    "purpose": "Sample product"
+  },
+  {
+    "file": "products/scout-kids-2.jpg",
+    "id": "photo-1601782744132-f08f10b3343e",
+    "page": "/photos/girl-in-pink-sleeveless-shirt-wearing-black-framed-eyeglasses-Ya9G0IPLlgI",
+    "w": 1000,
+    "purpose": "Sample product (lifestyle)"
+  }
+]

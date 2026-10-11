@@ -1,26 +1,210 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ─── Design tokens ──────────────────────────────────────────────────────── */
+@theme {
+  /* Brand palette */
+  --color-navy: #0b2236;
+  --color-navy-900: #071524;
+  --color-teal: #00a5b5;
+  --color-teal-deep: #007f8c;
+  --color-teal-soft: #e3f5f7;
+  --color-primary: #007f8c;
+  --color-secondary: #00909e;
+  --color-ivory: #f4f9fa;
+  --color-ivory-deep: #e6f1f3;
+  --color-sand: #d9ebee;
+  --color-ink: #0b2236;
+  --color-muted: #5b6b78;
+  --color-line: #dbe8eb;
+  --color-line-strong: #c2d6db;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Feedback */
+  --color-success: #2f6b4f;
+  --color-success-bg: #eaf3ee;
+  --color-error: #a23b2a;
+  --color-error-bg: #fbecea;
+  --color-warning: #8a5a12;
+  --color-warning-bg: #fdf4e3;
+  --color-sale: #9b3d2b;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Typography — Latin first; Devanagari glyphs fall through to Noto */
+  --font-sans: var(--font-inter), var(--font-noto-sans-deva), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-jost), var(--font-noto-sans-deva), ui-sans-serif, system-ui, sans-serif;
+
+  --text-display: clamp(2.5rem, 1.6rem + 3.8vw, 4.75rem);
+  --text-display--line-height: 1.02;
+  --text-display--letter-spacing: -0.03em;
+  --text-headline: clamp(1.875rem, 1.4rem + 1.9vw, 3rem);
+  --text-headline--line-height: 1.08;
+  --text-headline--letter-spacing: -0.015em;
+  --text-title: clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem);
+  --text-title--line-height: 1.2;
+  --text-eyebrow: 0.75rem;
+  --text-eyebrow--line-height: 1;
+  --text-eyebrow--letter-spacing: 0.16em;
+
+  /* Radii — restrained, not pill-shaped */
+  --radius-xs: 4px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+
+  /* Shadows */
+  --shadow-soft: 0 1px 2px rgb(11 34 54 / 0.04), 0 4px 16px rgb(11 34 54 / 0.06);
+  --shadow-lift: 0 2px 4px rgb(11 34 54 / 0.05), 0 12px 32px rgb(11 34 54 / 0.1);
+  --shadow-drawer: 0 0 0 1px rgb(11 34 54 / 0.04), 0 24px 64px rgb(11 34 54 / 0.22);
+
+  /* Layout */
+  --container-site: 80rem;
+  --container-prose: 44rem;
+
+  /* Motion */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --animate-fade-up: fade-up 0.7s var(--ease-out-soft) both;
+  --animate-fade-in: fade-in 0.4s ease-out both;
+  --animate-slide-in-right: slide-in-right 0.35s var(--ease-out-soft) both;
+  --animate-slide-in-left: slide-in-left 0.35s var(--ease-out-soft) both;
+  --animate-toast: toast-in 0.35s var(--ease-out-soft) both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: none;
+    }
+  }
+  @keyframes slide-in-left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: none;
+    }
+  }
+  @keyframes toast-in {
+    from {
+      opacity: 0;
+      transform: translateY(12px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ─── Base ───────────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+  /* Devanagari needs more vertical room for matras and conjuncts. */
+  :lang(mr),
+  :lang(hi) {
+    line-height: 1.7;
+  }
+  :lang(mr) :is(h1, h2, h3, .font-display),
+  :lang(hi) :is(h1, h2, h3, .font-display) {
+    line-height: 1.28;
+    letter-spacing: 0;
+  }
+  ::selection {
+    background: var(--color-primary);
+    color: white;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-secondary);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ─── Reusable utilities ─────────────────────────────────────────────────── */
+@utility container-site {
+  width: 100%;
+  max-width: var(--container-site);
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (width >= 64rem) {
+    padding-inline: 2.5rem;
+  }
+}
+
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: var(--text-eyebrow);
+  line-height: 1;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-secondary);
+  :lang(mr) &,
+  :lang(hi) & {
+    letter-spacing: 0.04em;
+    font-size: 0.8125rem;
+  }
+}
+
+@utility section-y {
+  padding-block: 4rem;
+  @media (width >= 64rem) {
+    padding-block: 6rem;
+  }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
